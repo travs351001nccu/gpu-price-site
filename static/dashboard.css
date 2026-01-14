@@ -808,3 +808,13 @@ tbody tr:hover td {
     background: var(--primary) !important;
     color: white !important;
 }
+
+@media (max-width: 768px) {
+    #dateRange {
+        font-size: 0.85rem !important;
+        white-space: normal !important;
+        word-break: break-word;
+        line-height: 1.2;
+        display: block;
+    }
+}
