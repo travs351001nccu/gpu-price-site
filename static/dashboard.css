@@ -600,8 +600,8 @@ tbody tr:hover td {
 
 .product-actions {
     display: flex;
-    gap: 8px;
-    margin-top: 12px;
+    gap: 12px;
+    margin-top: 16px;
 }
 
 .action-btn {
@@ -609,17 +609,21 @@ tbody tr:hover td {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-size: 0.85rem;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 9999px;
+    /* Pill shape */
+    font-size: 0.9rem;
+    font-weight: 500;
     cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease;
     border: 1px solid var(--glass-border);
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--text-secondary);
-    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.08);
+    /* Slightly lighter */
+    color: var(--text-primary);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .action-btn:hover {
