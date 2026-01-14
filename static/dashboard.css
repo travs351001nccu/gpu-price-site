@@ -519,7 +519,9 @@ tbody tr:hover td {
     }
 
     .nested-content {
-        width: 100%;
+        width: 92vw;
+        /* Viewport relative, not table relative */
+        max-width: 92vw;
         box-sizing: border-box;
         background: rgba(15, 23, 42, 0.95);
         /* Darker glass for overlay */
@@ -527,6 +529,8 @@ tbody tr:hover td {
         -webkit-backdrop-filter: blur(16px);
         border-bottom: 1px solid var(--glass-border);
         padding: 1rem;
+        border-radius: 8px;
+        /* Slight radius */
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     }
 
