@@ -233,6 +233,7 @@ thead th {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     backdrop-filter: blur(8px);
+    white-space: nowrap;
 }
 
 tbody td {
