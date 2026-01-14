@@ -392,30 +392,24 @@ td {
         align-items: flex-start;
     }
 
-    /* Hide less important columns on mobile to fix overflow */
-    th:nth-child(4),
-    td:nth-child(4),
-    /* Min Price */
-    th:nth-child(5),
-    td:nth-child(5),
-    /* Max Price */
-    th:nth-child(6),
-    td:nth-child(6)
-
-    /* Count */
-        {
-        display: none;
-    }
-
-    /* Adjust remaining columns */
-    th,
-    td {
-        padding: 0.75rem 0.5rem;
-    }
-
+    /* Allow horizontal scroll for tables on mobile */
     .table-container {
-        overflow-x: hidden;
-        /* Disable horizontal scroll if content fits */
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        margin-right: -1rem;
+        /* Extend to edge */
+        padding-right: 1rem;
+    }
+
+    table {
+        min-width: 650px;
+        /* Force minimum width to trigger scroll */
+    }
+
+    /* Ensure all columns are visible for scrolling */
+    th:nth-child(n),
+    td:nth-child(n) {
+        display: table-cell;
     }
 
     /* Make product grid items full width on mobile */
