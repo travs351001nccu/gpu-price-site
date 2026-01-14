@@ -812,6 +812,10 @@ tbody tr:hover td {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
     #dateRange {
         font-size: 0.85rem !important;
         white-space: normal !important;
