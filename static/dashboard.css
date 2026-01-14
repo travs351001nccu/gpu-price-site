@@ -598,6 +598,25 @@ tbody tr:hover td {
     min-height: 100px;
 }
 
+.refresh-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(4px);
+}
+
+.refresh-btn:hover {
+    background: rgba(6, 182, 212, 0.2);
+    border-color: var(--primary);
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.3);
+    color: #fff;
+}
+
 .product-card-mini:hover {
     border-color: var(--primary);
     transform: translateY(-2px);
