@@ -380,10 +380,11 @@ tbody tr:hover td {
     }
 
     .container {
-        padding: 0;
-        margin: 0;
+        padding: 0 0.5rem;
+        margin: 0 auto;
         max-width: 100%;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .header-content h1 {
@@ -394,7 +395,8 @@ tbody tr:hover td {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
         width: 100%;
-        padding: 0 0.5rem;
+        padding: 0;
+        margin: 0 auto;
         box-sizing: border-box;
     }
 
