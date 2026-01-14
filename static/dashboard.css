@@ -370,7 +370,11 @@ tbody tr:hover td {
     .header {
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        justify-content: center;
         gap: 1rem;
+        margin-top: 0.5rem;
+        padding: 1.5rem 1rem;
     }
 
     /* Force single column layout */
@@ -396,7 +400,7 @@ tbody tr:hover td {
         gap: 0.5rem;
         width: 100%;
         padding: 0;
-        margin: 0 auto;
+        margin: 1.5rem auto;
         box-sizing: border-box;
     }
 
