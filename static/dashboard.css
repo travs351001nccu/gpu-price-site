@@ -51,8 +51,9 @@ body {
 }
 
 .container {
-    max-width: 1400px;
-    margin-top: 1rem;
+    max-width: 98%;
+    margin: 1rem auto;
+    padding: 0 1rem;
 }
 
 .mobile-scroll-hint {
