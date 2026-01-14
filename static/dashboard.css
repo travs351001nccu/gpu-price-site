@@ -370,6 +370,17 @@ tbody tr:hover td {
         gap: 1rem;
     }
 
+    /* Force single column layout */
+    .content-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem;
+    }
+
+    .container {
+        padding: 0 0.5rem;
+        /* Slightly reduced padding for more space */
+    }
+
     .header-content h1 {
         font-size: 1.75rem;
     }
@@ -705,6 +716,7 @@ tbody tr:hover td {
     background: rgba(59, 130, 246, 0.1);
     border: 1px solid rgba(59, 130, 246, 0.2);
 }
+
 /* Modal Glassmorphism Overrides */
 .modal-overlay {
     background: rgba(15, 23, 42, 0.6);
