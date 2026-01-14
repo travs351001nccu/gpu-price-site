@@ -598,6 +598,47 @@ tbody tr:hover td {
     min-height: 100px;
 }
 
+.product-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.action-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    backdrop-filter: blur(4px);
+}
+
+.action-btn:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.buy-btn:hover {
+    background: rgba(45, 212, 191, 0.2);
+    border-color: var(--accent);
+    box-shadow: 0 0 10px rgba(45, 212, 191, 0.3);
+}
+
+.history-btn:hover {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: var(--primary);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
 .refresh-btn {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--glass-border);
