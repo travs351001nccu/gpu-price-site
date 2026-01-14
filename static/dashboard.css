@@ -519,8 +519,8 @@ tbody tr:hover td {
     }
 
     .nested-content {
-        width: 82vw;
-        max-width: 82vw;
+        width: 85vw;
+        max-width: 85vw;
         box-sizing: border-box;
         background: rgba(15, 23, 42, 0.95);
         /* Darker glass for overlay */
